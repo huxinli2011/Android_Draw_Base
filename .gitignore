@@ -1,0 +1,13 @@
+/build
+.gradle/
+/local.properties
+.idea/
+.DS_Store
+build/
+/captures
+/Android_Draw_Base.iml
+app.iml
+*.apk
+*.log
+*.iml
+.gradle-build/

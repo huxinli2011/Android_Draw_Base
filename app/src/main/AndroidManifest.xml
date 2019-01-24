@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.draw.base">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="MyActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".paint.activity.Summarize_1_1_1_Activity"/>
+        <activity android:name=".paint.activity.Summarize_1_1_3_Activity"/>
+        <activity android:name=".paint.activity.RectPontView_1_1_4_Activity"/>
+        <activity android:name=".paint.activity.intersect_1_1_4_Activity"/>
+        <activity android:name=".paint.activity.PathView_1_2_Activity"/>
+        <activity android:name=".paint.activity.SpiderActivity"/>
+
+        <activity android:name=".text.PaintSettingActivity"/>
+        <activity android:name=".text.CanvasActivity"/>
+
+        <activity android:name=".region.RegionConstructActivity"/>
+        <activity android:name=".region.RegionOpActivity"/>
+
+        <activity android:name=".canvas.CircleOperationActivity"/>
+        <activity android:name=".canvas.CustomCircleActivity"/>
+        <activity android:name=".canvas.ClipRgnActivity"/>
+        <activity android:name=".canvas.CustomViewActivity"/>
+    </application>
+
+</manifest>
